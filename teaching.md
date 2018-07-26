@@ -5,9 +5,6 @@ permanlink: teaching/
 ---
 # Teaching
 
-**[Class Notes](/classnotes/)** 
-{: style="text-align: center; font-size: x-large"}
-
 ## ACADEMIC SKILLS IN FOREST SCIENCES
 
 **Role:** Teacher assistant  
@@ -46,6 +43,9 @@ Upon a successful completion of this course, the students are expected to be abl
 **Resources:**  
 **– [Course page  3513061](https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=45322751)**  
 **– [Class notes](http://olalladiaz.net/teaching/classes-notes/)**
+
+**Class Notes:**  
+**– [Other response variables notes](/classes/res-meth/OtherRespVar.html)**
 
 ------
 
@@ -87,6 +87,17 @@ Upon a successful completion of this course, the students have obtained knowledg
 **– [Course page 3513019](https://weboodi.uef.fi/weboodi/frame.jsp?Kieli=6&MD5avain=2c4ff5a4f070927f83537daf05c8fa30)** 
 
 ------
+
+## DATA SCIENCE BASIC COURSE
+
+This is a collection of notes that I am developing for the data science course, it is a work in progress so you might find several errors (sorry about that) I will keep working on improving them:
+
+**Class Notes:**  
+**– [Notes (a work in progress)](/classes/datasci-basic/book/)**  
+**– [Introduction to advance plotting and maps with R](/classes/datasci-basic/MapswithR.html)**  
+**– [Merge, intro to optimization with R and variable transformation](/classes/datasci-basic/MergeSubsettingTransformation.html)** 
+
+-----
 
 ## INTEGRATING RISK INTO FOREST MANAGEMENT
 
