@@ -1,7 +1,7 @@
 ---
-title: About
+title: Résumé
 layout: page
-permanlink: about/
+permanlink: resume/
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
