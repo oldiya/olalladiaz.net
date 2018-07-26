@@ -3,45 +3,8 @@ title: About
 layout: page
 permanlink: about/
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+# About
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+![](/assets/images/Crater-Lake-RedWoods-233.jpg){: style="float: right; width: 50%; margin: 20px"}
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h2>Skills</h2>
-
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+I currently work as a researcher, finalising my doctoral degree at the University of Eastern Finland (expected defense summer 2018). My interests are data science, risk and management. I currently work on these issues from a forestry point of view  (forest dynamics, forest risk, forest modelling and forest biomass). I really enjoy the process of getting value from the data, look at the problem from a small and holistically scale and from different dimensions. This data driven interest has allow me to acquire solid statistical and programming skills, which I really enjoy using and keep learning about it.   I like to work in a multidisciplinary group, engage collaboratively with others, and be under the constant challenge of change: adapt to people, culture, new methods, new perspectives and new ways of doing things.  I have been lucky to experience this during my extensive international experience in research, teaching and project management, having worked in organizations such as IUFRO (Austria), US Forest Service (USA), Swedish University of Agricultural Sciences (Sweden), University of Eastern Finland (Finland) and Polytechnic University of Madrid (Spain). I also have experience in science communication, I have been part of the summer science writing internship at the Oregon State University. In my free time I am the doctoral representative in my doctoral school and a vice-member in my university department steering committee. I am also quite active in social media for professional and personal motivations, please look at the links at the bottom of this page if you want to connect.
