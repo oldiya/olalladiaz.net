@@ -1,0 +1,625 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={A collection of notes on R, Git and statistics},
+            pdfauthor={Olalla Diaz-Yañez},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{A collection of notes on R, Git and statistics}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Olalla Diaz-Yañez}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{2018-03-03}
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{a-work-in-progress}{%
+\chapter{A work in progress}\label{a-work-in-progress}}
+
+This is a collection of notes (a book?) with useful resources and
+instructions related to R, RStudio, Git and Statistics with R. Right now
+it mainly works as a personal repository. But I hope that litle by litle
+it will have more meaninful content with detailed instructions to more
+complex concepts and examples.
+
+{A collection of notes on R, Git and statistics} by Olalla Díaz-Yáñez is
+licensed under a Creative Commons Attribution-NonCommercial 4.0
+International License.
+
+\hypertarget{intro}{%
+\chapter{Introduction}\label{intro}}
+
+\hypertarget{what-is-r}{%
+\section{What is R}\label{what-is-r}}
+
+R is a system for statistical computation and graphics. It consists of a
+language plus a run-time environment with graphics, a debugger, access
+to certain system functions, and the ability to run programs stored in
+script files. To be able to use and understand R you will also need to
+know some basic concepts that all programming depends on. But do not be
+scared!
+
+\href{https://cran.r-project.org/doc/FAQ/R-FAQ.html\#What-is-R_003f}{Here}
+you can read a longer deffinition of what is R.
+
+\textbf{R vs.~Python}
+
+I really like
+\href{http://ucanalytics.com/blogs/r-vs-python-comparison-and-awsome-books-free-pdfs-to-learn-them/}{this}
+comparison of python and R. The idea is that R is Batman and Python is
+Superman. Batman (R) does better detective work, has a more developed
+intelligence, or in other words Batmand is more brain than muscles. On
+the other hand Superman (Python) has muscle power and super strength,
+you could consider him more elegant, but in general words is more
+muscles than brain.
+
+FUN FACT: The ``Python'' programming language name derived from the
+series
+\href{https://en.wikipedia.org/wiki/Monty_Python\%27s_Flying_Circus}{Monty
+Python's Flying Circus}.
+
+\hypertarget{why-r}{%
+\subsection{Why R}\label{why-r}}
+
+There are several reason why R:
+
+\begin{itemize}
+\tightlist
+\item
+  it´s free
+\item
+  it´s well-documented and has an amazing user community
+\item
+  it runs almost everywhere
+\item
+  it has a large user base among researchers, data scientists, companies
+\item
+  it has a extensive library of packages helping to solve different
+  tasks
+\item
+  it´s not a black box
+\end{itemize}
+
+The best way to learn a tool is to use it for something useful, for
+example analyze data. Thats why this is the tool prefered in our
+courses. The goal it is not to master the tool or actually teach you R
+but to have the enough knowledge to be able to find your way to suceed
+in your goals and to have a basic knowledge that will aloow you to
+explore independtly and find the solutions that you need.
+
+\hypertarget{what-is-rstudio}{%
+\section{What is RStudio}\label{what-is-rstudio}}
+
+\href{https://www.rstudio.com/products/RStudio/}{RStudio} is an
+integrated development environment (IDE) for R. It includes a console,
+syntax-highlighting editor that supports direct code execution, as well
+as tools for plotting, history, debugging and workspace management.
+
+\hypertarget{why-rstudio}{%
+\subsection{Why RStudio}\label{why-rstudio}}
+
+My friend usually sais that we have not come to this world to suffer,
+using Rstudio instead of just R makes your life easier, so it will avoid
+some unnecesary suffering. There is nothing wrong of just using R,
+without RStudio, and actually some people prefer to learn R without
+RStudio, not me. Some of the reasons why I prefer to use RStudio are:
+
+\begin{itemize}
+\tightlist
+\item
+  window docking (all necessary things in one window)
+\item
+  full-featured text editor
+\item
+  tab-completion of filenames, function names and arguments (you do not
+  need to remember everything)
+\item
+  Rmarkdown and knitr integration
+\end{itemize}
+
+\hypertarget{what-is-git}{%
+\section{What is Git}\label{what-is-git}}
+
+\href{http://git-scm.com}{Git} is a \textbf{version control system}.
+Probably the best ever description og Git is whaty XXX wrote: ``it is as
+the ``Track Changes'' features from Microsoft Word on steroids''. It was
+created to help groups of developers to deal with big and complex
+projects. For a data science user, it is basically a clever way to ovoid
+having hundred ``final version'' files as described
+\href{http://phdcomics.com/comics.php?f=1531}{here}.
+
+It is both benefitial when working alone as you can delete that
+not-so-clever code that you wrote and never used, without been scared,
+as if future you need that piced of code you will be able to go back and
+take it. But Git benefits increase exponinetally when you include
+collaborators in the equation, use git it is a smart way to collaborate
+and to be up-to-date with each others work and at the same time have a
+version control of your and others people work. Some people think that
+hthe Git-pain is only worth it when collaborating, but even in that
+case, I am sure you are going to work with others in some point, and
+avoid taken that into consideration from the beginning will mean a delay
+in the implementation of it in your workflow and a higher pain than just
+Git-pain.
+
+\hypertarget{what-is-github}{%
+\section{What is GitHub}\label{what-is-github}}
+
+A way of hosting your work online.
+
+\hypertarget{what-it-is-in-for-me}{%
+\section{What it is in for me?}\label{what-it-is-in-for-me}}
+
+Maybe you are still wondering: what it is really in for me? I just
+wanted to do my statistical anaylisis and be done with it, do really all
+the gains possibly justify the inevitable pain of start using R,
+Rstudio, GitHub and Git?\ldots{}
+
+My personal experience is that doing things from the beginning with the
+correct aproach, although painful, may avoid a bigger pain in the
+future. As soon as you get into your best workflow easier for you would
+be to do things right and realised early about mistakes. Of course your
+workflow won't be a static thing, you will continiouly learn new
+aproaches and techniques that will improve the way you do things. Saying
+that I also think that one thing is what it is the best workflow for
+each of us as individuals (if you like to write your essays on a paper
+and then in a word document, thats fine for me), but a different thing
+is what is the best way to collaborate and work with others. In the
+first case you chose, in the second case chosing should be always on
+what is the best for the team-work, meaning higher productivity, less
+chances of errors, easier collaboration etc. And yes, you are going to
+work with others most of the times. There is were Git and RStudio are
+going to make your life easier!
+
+\hypertarget{applications}{%
+\chapter{Applications}\label{applications}}
+
+Some \emph{significant} applications of the tools presented
+
+\hypertarget{example-one}{%
+\section{Example one}\label{example-one}}
+
+\hypertarget{example-two}{%
+\section{Example two}\label{example-two}}
+
+\hypertarget{sessions}{%
+\chapter{Sessions}\label{sessions}}
+
+\hypertarget{session-0}{%
+\section{Session 0}\label{session-0}}
+
+\textbf{1. Install R and R studio}
+
+\begin{itemize}
+\item
+  Install pre-compiled binary of R for your operating system:
+  \url{https://cloud.r-project.org}
+\item
+  Install Preview version RStudio Desktop:
+  \url{https://www.rstudio.com/products/rstudio/download/preview/}
+\end{itemize}
+
+If you have a pre-existing installation of R and/or RStudio, it is
+highly recommend that you reinstall both. You will face more dificulties
+if you run an old softwared version. If you upgrade R, you will need to
+update any packages you have installed.
+
+\textbf{2. Test it}
+
+Launch RStudio, you should see something simmilar to
+\href{https://www.flickr.com/photos/xmodulo/22093054381}{this} but a bit
+emptier as you have not written anythign yet. Put your cursor in the
+pane labelled Console, which is where you interact with the live R
+process. In console, write something like: 2 + 1 and press return and
+you should get a 3. If you get a 3, you've succeeded in the installation
+of R and RStudio, congrats!
+
+\textbf{Some extra resources:}
+
+\url{https://cran.r-project.org/doc/manuals/R-admin.html}
+
+\url{https://cran.r-project.org/doc/FAQ/R-FAQ.html\#What-is-R_003f}
+
+\url{https://cran.r-project.org/doc/FAQ/R-FAQ.html}
+
+\hypertarget{session-1}{%
+\section{Session 1}\label{session-1}}
+
+\hypertarget{learning-objectives}{%
+\subsection{Learning objectives}\label{learning-objectives}}
+
+\begin{itemize}
+\tightlist
+\item
+  Learn what is programming
+\item
+  Learn what is R
+\item
+  Learn the basics of RStudio
+\item
+  Learn the basics of R:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Variable assigment
+  \item
+    Basic data types
+  \item
+    Vectors
+  \item
+    Data frames
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{contents}{%
+\subsection{Contents}\label{contents}}
+
+\textbf{Basics of R:}
+
+\begin{itemize}
+\tightlist
+\item
+  Program
+\item
+  Language: Not compiled, simple sintaxys
+\item
+  R ``flow'':
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Variables, data, functions, results, etc, are stored in the active
+    memory of the computer in the form of objects which have a name.
+  \item
+    You can do actions on these objects with operators (arithmetic,
+    logical, comparison, . . .) and functions (which are themselves
+    objects).
+  \end{itemize}
+\end{itemize}
+
+\textbf{Practice}
+
+\begin{itemize}
+\tightlist
+\item
+  Using Rstudio
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Open a project
+  \item
+    Organize your folder (rstudio projet / Code / Data / Figures / )
+    \textbf{Super tip of the day!}
+  \item
+    Console
+  \item
+    Files
+  \item
+    Script
+  \item
+    \href{https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts}{Keyboard
+    shortcuts}
+  \end{itemize}
+\item
+  Variable assigment: the ``assign'' operator
+
+  \begin{itemize}
+  \tightlist
+  \item
+    concept overwiting a variable (s in the active memory, not the data
+    on the disk)
+  \item
+    Note that R is case sensitive!
+  \item
+    ``\#'' is used for comments
+  \end{itemize}
+\item
+  Basic data types
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Decimals values like 4.5 are called numerics.
+  \item
+    Natural numbers like 4 are called integers. Integers are also
+    numerics.
+  \item
+    Boolean values (TRUE or FALSE) are called logical.
+  \item
+    Text (or string) values are called characters. The quotation marks
+    indicate that is a character.
+  \end{itemize}
+\item
+  Vectors
+
+  \begin{itemize}
+  \tightlist
+  \item
+    create vectors
+  \item
+    name a vector
+  \item
+    select elements from the vector
+  \item
+    compare different vectors
+  \item
+    combine vectors
+  \end{itemize}
+\item
+  Data frames
+
+  \begin{itemize}
+  \tightlist
+  \item
+    creating a data frame
+  \item
+    quick look to the data frame: structure, rownames, number of
+    columns, number of rows, summary,
+  \item
+    select data fram elements
+  \item
+    subset in a data frame
+  \item
+    ordering
+  \item
+    sorting
+  \end{itemize}
+\end{itemize}
+
+\textbf{The code of this session} can be found
+\href{https://github.com/oldiya/DataScience/blob/master/scripts/session1.R}{here}
+
+\hypertarget{carry-on-learning}{%
+\subsection{Carry on learning}\label{carry-on-learning}}
+
+\href{https://www.datacamp.com/courses/free-introduction-to-r?utm_source=adwords_ppc\&utm_campaignid=898687156\&utm_adgroupid=48303643819\&utm_device=c\&utm_keyword=\&utm_matchtype=b\&utm_network=g\&utm_adpostion=1t1\&utm_creative=229335520231\&utm_targetid=dsa-377762271983\&utm_loc_interest_ms=\&utm_loc_physical_ms=1005620\&gclid=EAIaIQobChMIkOeW3InG2QIVdijTCh23qgmmEAAYASAAEgIJL_D_BwE}{Data
+camp (still) free basic r course}
+
+\href{https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf}{Base
+R Cheat Sheet}
+
+\hypertarget{session-2}{%
+\section{Session 2}\label{session-2}}
+
+\hypertarget{learning-objectives-1}{%
+\subsection{Learning objectives}\label{learning-objectives-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Learn the basics of R:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Variable assigment (review)
+  \item
+    Basic data types (review)
+  \item
+    Vectors (review)
+  \item
+    Data frames (review \& new)
+  \item
+    Lists
+  \item
+    Matrices
+  \item
+    Factors
+  \end{itemize}
+\item
+  Basic math functions
+\item
+  Basic visualizations of the data
+\item
+  Basic statistics
+\item
+  Using Libraries
+\item
+  File path
+\item
+  Working directory
+\end{itemize}
+
+\hypertarget{contents-1}{%
+\subsection{Contents}\label{contents-1}}
+
+*Data frames + Understanding a data frame + Count rows and columns + Add
+rows and columns + Subset a data frame + list of variables + name of the
+columns + Vector functions (sort, counts of values, unique values)
+
+\begin{itemize}
+\tightlist
+\item
+  Lists
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Lists, as opposed to vectors, can hold components of different types
+  \item
+    create a list
+  \item
+    list subsetting
+  \item
+    name lists
+  \end{itemize}
+\item
+  Matrices
+
+  \begin{itemize}
+  \tightlist
+  \item
+    create matrices and to understand how you can do basic computations
+    with them.
+  \end{itemize}
+\item
+  Factors
+
+  \begin{itemize}
+  \tightlist
+  \item
+    create, subset and compare
+  \end{itemize}
+\item
+  Maths functions
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Maximun value
+  \item
+    Minimun value
+  \item
+    Mean value
+  \item
+    Median
+  \item
+    Variance
+  \item
+    Standart deviation
+  \item
+    Correlation
+  \item
+    Round values
+  \end{itemize}
+\item
+  Basic visualizations of the data
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Ploting
+  \item
+    histograms
+  \end{itemize}
+\item
+  Basic statistics
+
+  \begin{itemize}
+  \tightlist
+  \item
+    linear model
+  \item
+    summary of the linear model
+  \end{itemize}
+\item
+  Using Libraries
+\item
+  File path
+\item
+  Working directory
+\end{itemize}
+
+\hypertarget{final-words}{%
+\chapter{Final Words}\label{final-words}}
+
+We have finished a nice book.
+
+\bibliography{book.bib,packages.bib}
+
+
+\end{document}
