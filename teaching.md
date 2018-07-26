@@ -42,7 +42,6 @@ Upon a successful completion of this course, the students are expected to be abl
 
 **Resources:**  
 **– [Course page  3513061](https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=45322751)**  
-**– [Class notes](http://olalladiaz.net/teaching/classes-notes/)**
 
 **Class Notes:**  
 **– [Other response variables notes](/classes/res-meth/OtherRespVar.html)**

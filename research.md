@@ -1,7 +1,6 @@
 ---
 title: Research
 layout: page
-permanlink: research/
 ---
 
 
