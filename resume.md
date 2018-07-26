@@ -5,7 +5,7 @@ permanlink: resume/
 ---
 # Résumé
 
-**[LinkedIn](https://www.linkedin.com/in/olalladiaz/) \| [Download CV](http://olalladiaz.net/Docs/ODY_%20CV_July_2018.pdf) \| [Publications](/research/publications-list/)**
+**[LinkedIn](https://www.linkedin.com/in/olalladiaz/) \| [Download CV](/assets/docs/ODY_%20CV_July_2018.pdf) \| [Publications](/research/publications-list/)**
 {: style="text-align: center; font-size: x-large"}
 
 ## Other fun adventures:
