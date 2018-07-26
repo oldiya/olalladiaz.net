@@ -15,9 +15,9 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: resume/
+resume-url: resume
 
-url: https://luisspuerto.github.io/olalladiaz.net/
+url: https://luisspuerto.github.io/olalladiaz.net
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -77,11 +77,16 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: false
+
+# other pages:
+research: true
+teaching: true
+presentations: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
