@@ -5,45 +5,25 @@ permanlink: presentations/
 ---
 # Presentations
 
-![Profile Image]({{ site.url }}/{{ site.picture }})
+* **Integrating hazards for forest management and planning in Norway.**   
+  Science afternoon. Institute of silviculture. BOKU. Vienna. January 11, 2018. [*[pdf](/assets/docs/SciAfternoon_ODY_handout.pdf)*]
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<h2>Skills</h2>
+* **Forest stand variables affecting break and uproot of trees after the occurrence of wind and snow damage**.  
+   [Ecological Society of America Annual Meeting. Portland, Oregon, United States. August 6-11, 2017](http://www.esa.org/portland/)  [*[pdf](/assets/docs/ESA17_OlallaDiazYanez.pdf)*]
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
 
-<h2>Projects</h2>
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+* **What makes a forest stand more vulnerable to snow and wind damage?**   
+  [8th International Conference on Wind and Trees. Boulder, Colorado, United States. July 17-21, 2017](https://www.mmm.ucar.edu/wind-and-trees).[*[pdf](http://olalladiaz.net/Docs/WindConf_OlallaDiazYanez.pdf)*]
+
+
+
+* **What variables make a young forest stand more vulnerable to ungulate browsing occurrence?** [Conference: Forest Regeneration – IUFRO. Corvallis, Oregon, United States. Jul 11-13, 2017](http://blogs.oregonstate.edu/forestregen2017/) [*[pdf](/assets/docs/ForestRen_OlallaDiazYanez_.pdf)*]
+
+
+
+* Poster [7th Spanish Forest Conference 2017](http://7cfe.congresoforestal.es/) [Spanish] \[*[pdf](/assets/docs/ODY_poster_7CFE_A0.pdf)*]
+
+ 
