@@ -3,7 +3,7 @@ title: SciCom
 layout: page
 ---
 
-# Science Communication 
+# Science Communication
 
 > ***“Without stories we are only mammals with weapons…”***
 > {: style="font-size: large"}
@@ -11,7 +11,7 @@ layout: page
 \- Brian Doyle
 {: style="text-align:right"}
 
- 
+
 
 Science Communication generally refers to public communication of scientific-related topics not only targeting the scientific community. Or in other words how scientist should communicate their work if they want to be understood by someone else than their peers.
 

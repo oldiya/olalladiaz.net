@@ -21,7 +21,7 @@ We wanted to understand what disturbances are affecting the Norwegian forests an
 
 <figure>
 
-<img src="/assets/images/img_2077.jpg" alt="Broken tree ">
+<img src="{{ site.url }}/assets/images/img_2077.jpg" alt="Broken tree ">
 
 <figcaption class="caption">Broken tree </figcaption>
 
@@ -33,7 +33,7 @@ Certain stand characteristics make some stands more vulnerable than others to wi
 
 <figure>
 
-<img src="/assets/images/moose-browsing-2.jpg" alt="Moose browsing during the night  (By Katri Voutilainen)">
+<img src="{{ site.url }}/assets/images/moose-browsing-2.jpg" alt="Moose browsing during the night  (By Katri Voutilainen)">
 
 <figcaption class="caption">Moose browsing during the night  (By Katri Voutilainen)</figcaption>
 
