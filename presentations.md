@@ -16,7 +16,7 @@ permanlink: presentations/
 
 
 * **What makes a forest stand more vulnerable to snow and wind damage?**
-  [8th International Conference on Wind and Trees. Boulder, Colorado, United States. July 17-21, 2017](https://www.mmm.ucar.edu/wind-and-trees).[*[pdf](http://olalladiaz.net/Docs/WindConf_OlallaDiazYanez.pdf)*]
+  [8th International Conference on Wind and Trees. Boulder, Colorado, United States. July 17-21, 2017](https://www.mmm.ucar.edu/wind-and-trees).[*[pdf]({{ site.url }}/assets/docs/WindConf_OlallaDiazYanez.pdf)*]
 
 
 
