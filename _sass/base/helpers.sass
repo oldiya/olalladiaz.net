@@ -30,3 +30,42 @@
 	100%
 		opacity: 1
 		transform: translateY(0)
+
+/* image align center */
+
+.align-center
+	display: block
+	margin-left: auto
+	margin-right: auto
+	width: intrinsic
+
+/* image align center-full */
+
+.align-center-full
+	display: block
+	margin-left: auto
+	margin-right: auto
+	img
+		width: 100%
+
+/* image align left */
+
+.align-left
+	float: left
+	margin-right: 1em
+	@media #{$mobile}
+		width: 100% !important
+		display: block
+		margin-left: auto
+		margin-right: auto
+
+/* image align right */
+
+.align-right
+	float: right
+	margin-left: 1em
+	@media #{$mobile}
+		width: 100% !important
+		display: block
+		margin-left: auto
+		margin-right: auto
