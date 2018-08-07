@@ -10,9 +10,15 @@ layout: page
 
 ---
 
+* **Integrating the risk of natural disturbances into forest management in Norway**.  
+  Dissertationes Forestales 258. 2018 \| Academic dissertation.  
+  DOI: [https://doi.org/10.14214/df.258](https://doi.org/10.14214/df.258)
+
+
+
 * **Wood biomass potentials for energy in northern Europe: Forest or plantations?**  
   Biomass and Bioenergy. 2017-11 \| journal-article.  
-  DOI: <https://doi.org/10.1016/j.biombioe.2017.08.021>
+  DOI: [https://doi.org/10.1016/j.biombioe.2017.08.021](https://doi.org/10.1016/j.biombioe.2017.08.021)
 
 
 
@@ -24,13 +30,13 @@ layout: page
 
 * **What variables make a forest stand vulnerable to browsing damage occurrence?**  
   Silva Fennica. 2017-03–30 \| journal-article.  
-  DOI: <https://doi.org/10.14214/sf.1693>
+  DOI: [https://doi.org/10.14214/sf.1693](https://doi.org/10.14214/sf.1693)
 
 
 
 * **Reviewing wood biomass potentials for energy in Europe: the role of forests and fast growing plantations.**  
   Biofuels. 2017 \| journal-article.  
-  DOI: <http://dx.doi.org/10.1080/17597269.2016.1271627> 
+  DOI: [http://dx.doi.org/10.1080/17597269.2016.1271627](http://dx.doi.org/10.1080/17597269.2016.1271627 ) 
 
 
 
