@@ -11,20 +11,20 @@ layout: page
 ---
 
 * **Wood biomass potentials for energy in northern Europe: Forest or plantations?**  
-  Biomass and Bioenergy. 2017-11  
-  journal-article. DOI: <https://doi.org/10.1016/j.biombioe.2017.08.021>
+  Biomass and Bioenergy. 2017-11 \| journal-article.  
+  DOI: <https://doi.org/10.1016/j.biombioe.2017.08.021>
 
 
 
 * **How does forest composition and structure affect the stability against wind and snow?**  
-  Forest Ecology and Management. 2017-10 \|  
-  journal-article. DOI: [https://doi.org/10.1016/j.foreco.2017.06.054 ](https://doi.org/10.1016/j.foreco.2017.06.054)
+  Forest Ecology and Management. 2017-10 \| journal-article.  
+  DOI: [https://doi.org/10.1016/j.foreco.2017.06.054 ](https://doi.org/10.1016/j.foreco.2017.06.054)
 
 
 
 * **What variables make a forest stand vulnerable to browsing damage occurrence?**  
-  Silva Fennica. 2017-03–30 \|  
-  journal-article. DOI: <https://doi.org/10.14214/sf.1693>
+  Silva Fennica. 2017-03–30 \| journal-article.  
+  DOI: <https://doi.org/10.14214/sf.1693>
 
 
 
