@@ -8,6 +8,15 @@ permanlink: resume/
 **[LinkedIn](https://www.linkedin.com/in/olalladiaz/) \| [Download CV]({{ site.url }}/assets/docs/ODY_%20CV_July_2018.pdf) \| [Publications]({{site.url}}/research/publications-list/)**
 {: style="text-align: center; font-size: x-large"}
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
 ## Other fun adventures:
 
 Researchers summarise their expertise in 100 seconds [[news](http://www.uef.fi/en/-/tutkijat-tiivistivat-osaamisensa-sadan-sekunnin-videolle?inheritRedirect=true&redirect=%2Ffi%2Fetusivu)]

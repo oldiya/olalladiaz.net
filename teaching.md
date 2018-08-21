@@ -119,5 +119,3 @@ This is a collection of notes that I am developing for the data science course, 
 **Role:** Guest teacher  
 **Responsibilities:** Planning, teaching, material creation.  
 **Teaching institution:** School of Forest Sciences, University of Eastern Finland
-
-------
