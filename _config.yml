@@ -20,7 +20,11 @@ resume-url: resume
 url: https://olalladiaz.net
 # your url: http://USERNAME.github.io
 
+# Outputting
 permalink: /blog/:year/:month/:day/:title/
+paginate: 20 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-112473661-1'
