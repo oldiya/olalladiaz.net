@@ -1,5 +1,7 @@
 ---
-Hi Olalla, I'm the front matter, you can set it a front matter in typhora just typing 3 dashes "---" and hitting return. YAY!
+title: Steps towards a succesfull defense day
+layout: page
+permanlink: temporal/last_steps_thesis
 ---
 
 # Steps towards a succesfull defense day
