@@ -1,4 +1,4 @@
-# Steps towards a succesfull defense day
+# Steps towards a succesful defense day
 
 These are the steps to follow after you have got the document: "Permission to proceed to public examination of doctoral dissertation". This is not an official guide, this is what I recomend doing based on my personal experience during August 2018, so please follow these steps with caution and always follow the advice from official written guidelines and responsible people. 
 
