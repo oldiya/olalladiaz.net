@@ -54,18 +54,13 @@ github: oldiya
 email: olalla.diaz@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    oldiya:
+        name: Olalla Díaz Yáñez
+        bio: "#DataScience #ScientificCommunication #Science #Risk
+        #ForestDynamics  #ForestManagement #ForestBiomass #ForestEcology"
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: olalla
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
