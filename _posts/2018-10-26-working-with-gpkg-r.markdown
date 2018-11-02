@@ -1,7 +1,7 @@
 ---
 title: "Working with geopackages in R"
 layout: post
-date: 2018-10-26 22:44
+date: 2018-11-02 16:30
 image: http://www.opengeospatial.org/pub/www/files/blog/Geopackage_layers.png
 headerImage: true
 tag:
