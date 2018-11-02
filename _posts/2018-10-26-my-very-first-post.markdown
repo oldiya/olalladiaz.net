@@ -1,7 +1,7 @@
 ---
 title: "My very first post"
 layout: post
-date: 2018-10-26 22:44
+date: 2018-11-02 16:00
 image: /assets/images/Crater-Lake-RedWoods-228.jpg
 headerImage: true
 tag:
@@ -20,7 +20,7 @@ This post is a very light introduction to the collection of posts (a blog?)  tha
 
 ## What is this about
 
-This is a collection of posts (a blog?) without pretensions. I am mainly writing for myself things that have been useful, are going to be useful or irradian usefulness. The topics mainly originate from my life, work  and hobbies. 
+This is a collection of posts (a blog?) without pretensions. I am mainly writing for myself about things that have been useful, are going to be useful or radiate usefulness. The topics mainly originate from my life, work and hobbies, so I guess you should expect a lot of R coding... 
 
 ---
 
