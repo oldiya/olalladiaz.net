@@ -78,16 +78,12 @@ load_databasegpkg <- function (GPKG, layer){ # e.g.GPKG = "MV_N5411E.gpkg",  lay
 
 Thats all for now about the gpkg-R connection. Do you have a better approach? Please let me know! 
 
-
-
-
-
 ### Links
 
-[^1]: https://www.geopackage.org/
-[^2]: https://www.metsaan.fi/paikkatietoaineistot
-[^3]: ftp://ftp.aineistot.metsaan.fi/Metsavarakuviot/Karttalehti/MV_P4441E.zip
-[^4]: https://extra.bitcomp.fi/metsastandardi_ehdotus/V8/MV/doc/index.html
+[^1]: <https://www.geopackage.org/>
+[^2]: <https://www.metsaan.fi/paikkatietoaineistot>
+[^3]: <ftp://ftp.aineistot.metsaan.fi/Metsavarakuviot/Karttalehti/MV_P4441E.zip>
+[^4]: <https://extra.bitcomp.fi/metsastandardi_ehdotus/V8/MV/doc/index.html>
 
 
 
