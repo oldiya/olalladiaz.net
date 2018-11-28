@@ -6,7 +6,7 @@ layout: page
 # Publications List
 
 **[Google scholar](https://scholar.google.es/citations?user=TJ4DXUMAAAAJ&hl=en)  \|  [ORCID](http://orcid.org/0000-0003-3829-5759)  \|  [Research Gate](https://www.researchgate.net/profile/Olalla_Diaz-Yanez)**
-{: style="text-align: center; font-size: x-large"}
+|  [**ResearcherID**](http://www.researcherid.com/rid/K-5885-2016) {: style="text-align: center; font-size: x-large"}
 
 ---
 
