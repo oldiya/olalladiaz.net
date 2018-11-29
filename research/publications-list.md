@@ -11,7 +11,6 @@ layout: page
 
 ---
 
-* </span>
 * Integrating the risk of natural disturbances into forest management in Norway**.  
   Dissertationes Forestales 258. 2018 \| Academic dissertation.  
   DOI: [https://doi.org/10.14214/df.258](https://doi.org/10.14214/df.258)
