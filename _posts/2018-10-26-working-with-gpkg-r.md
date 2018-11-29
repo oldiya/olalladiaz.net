@@ -1,7 +1,7 @@
 ---
 title: "Working with geopackages in R"
 layout: post
-date: 2018-10-26 22:44
+date: 2018-11-02 16:30
 image: http://www.opengeospatial.org/pub/www/files/blog/Geopackage_layers.png
 headerImage: true
 tag:
@@ -10,6 +10,7 @@ tag:
 star: false
 category: blog
 author: oldiya
+description: Markdown summary with different options
 ---
 
 ## Summary:
@@ -28,16 +29,18 @@ A [geopackage](https://www.geopackage.org/)[^1] (*.gpkg) is an open format for g
 
 ## Using a geopackage file in R
 
-In order to read geopackages in R we are going to use two libraries: rgdal and RSQLite. I am going to exaplin my approach using as an example forestry data from the Finnish center [Metsäkeskus](https://www.metsaan.fi/paikkatietoaineistot)[^2], this data is available [here](ftp://ftp.aineistot.metsaan.fi/Metsavarakuviot/Karttalehti/MV_P4441E.zip)[^3], corresponding with one mapsheet called *MV_P4441E.gpkg*. If you want to follow my example with the same data, please go ahead and download and unzip the file. If you are curius about the forestry data cointaned here you can explore the variables and lear more about the databases in [here](https://extra.bitcomp.fi/metsastandardi_ehdotus/V8/MV/doc/index.html)[^4]. 
+In order to read geopackages in R we are going to use two libraries: *rgdal* and *RSQLite*. I am going to explain what I have done using as an example forestry data from the Finnish center [Metsäkeskus](https://www.metsaan.fi/paikkatietoaineistot)[^2], this data is available [here](ftp://ftp.aineistot.metsaan.fi/Metsavarakuviot/Karttalehti/MV_P4441E.zip)[^3]. I will for this example the mapsheet file *MV_P4441E.gpkg*. If you want to follow my example with the same data, please go ahead and download and unzip the file. If you are curius about the forestry data cointaned here you can explore the variables and learn more about the databases in [here](https://extra.bitcomp.fi/metsastandardi_ehdotus/V8/MV/doc/index.html)[^4]. 
 
-When we open a geopackages file  a good first step is to explore the layers it contain: 
+Lets' start! A good first step is to explore the layers from the geopackages file:  
 
 ```R
   library (rgdal)
+  library (RSQLite)
 
   # Explore the layers available 
   ogrListLayers("Data/MV_P4441E.gpkg")
 ```
+
 
 In this case we can see that there are 14 layers: 
 
@@ -61,7 +64,7 @@ tbldata <- tbl (dta, "stratum") #Create a table from a data source
 tbldf <- as.data.frame (tbldata) #Create a data frame
 ```
 
-I also created a super simple function to save time, it looks like this:
+I have also created a super simple function to save time when I load several files, it looks like this:
 
 ```R
 load_databasegpkg <- function (GPKG, layer){ # e.g.GPKG = "MV_N5411E.gpkg",  layer = "stratum"
@@ -73,14 +76,14 @@ load_databasegpkg <- function (GPKG, layer){ # e.g.GPKG = "MV_N5411E.gpkg",  lay
 }
 ```
 
-Thats all for now about the gpkg-R connection.
+Thats all for now about the gpkg-R connection. Do you have a better approach? Please let me know! 
 
 ### Links
 
 [^1]: <https://www.geopackage.org/>
-[^2]: https://www.metsaan.fi/paikkatietoaineistot
-[^3]: ftp://ftp.aineistot.metsaan.fi/Metsavarakuviot/Karttalehti/MV_P4441E.zip
-[^4]: https://extra.bitcomp.fi/metsastandardi_ehdotus/V8/MV/doc/index.html
+[^2]: <https://www.metsaan.fi/paikkatietoaineistot>
+[^3]: <ftp://ftp.aineistot.metsaan.fi/Metsavarakuviot/Karttalehti/MV_P4441E.zip>
+[^4]: <https://extra.bitcomp.fi/metsastandardi_ehdotus/V8/MV/doc/index.html>
 
 
 
