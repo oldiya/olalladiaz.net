@@ -10,8 +10,9 @@ In my research, I focus on forest change and stand dynamics, I am particularly i
 
 
 **\|[Publications]({{site.url}}/research/publications-list/)\|**
-{: style="text-align: center; font-size: large"}
+{: style="text-align: center; font-size: x-large"}
 
 
 
 ![]({{ site.url }}/assets/images/Crater-Lake-RedWoods-228.jpg){: style="display: block;     margin-left: auto;     margin-right: auto;"}
+
