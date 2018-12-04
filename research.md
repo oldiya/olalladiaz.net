@@ -9,7 +9,7 @@ In my research, I focus on forest change and stand dynamics, I am particularly i
 
 
 
-**|[Publications]({{site.url}}/research/publications-list/)|**
+**\|[Publications]({{site.url}}/research/publications-list/)\|**
 {: style="text-align: center; font-size: large"}
 
 
