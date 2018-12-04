@@ -11,8 +11,8 @@ I find fun in data, I like to immerse myself in numbers looking for answers, cre
 
 
 
-**\| [Publications]({{site.url}}/research/publications-list/)**
-**|**{: style="text-align: center; font-size: x-large"}
+**| [Publications]({{site.url}}/research/publications-list/) \|**
+{: style="text-align: center; font-size: x-large"}
 
 
 
