@@ -13,3 +13,7 @@ I find fun in data, I like to immerse myself in numbers looking for answers, cre
 
 **\| [Publications]({{site.url}}/research/publications-list/)**
 **|**{: style="text-align: center; font-size: x-large"}
+
+
+
+![]({{ site.url }}/assets/images/Crater-Lake-RedWoods-228.jpg){: style="display: block;     margin-left: auto;     margin-right: auto;"}
