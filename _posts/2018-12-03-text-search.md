@@ -2,10 +2,12 @@
 title: "Search text by patterns in R"
 layout: post
 date: 2018-12-10 16:00
-image: /assets/images/Crater-Lake-RedWoods-228.jpg
+image: /assets/images/textR.png
 headerImage: true
 tag:
-- personal
+- text
+- data mining
+- R
 star: false
 category: blog
 author: oldiya
