@@ -11,7 +11,13 @@ layout: page
 
 ---
 
-* Integrating the risk of natural disturbances into forest management in Norway**.  
+* **Simulating the effects of wind and snow damage on the optimal management of Norwegian spruce forests**.  
+  Forestry: An International Journal of Forest Research. 2019-05 \| Journal-article.  
+  DOI: [https://doi.org/10.1093/forestry/cpz031](<https://doi.org/10.1093/forestry/cpz031>)
+
+  
+
+* **Integrating the risk of natural disturbances into forest management in Norway**.  
   Dissertationes Forestales 258. 2018 \| Academic dissertation.  
   DOI: [https://doi.org/10.14214/df.258](https://doi.org/10.14214/df.258)
 
