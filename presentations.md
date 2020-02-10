@@ -9,13 +9,13 @@ permanlink: presentations/
    into forest management using NFI data in Norway**. A century of national forest inventories
    – informing past, present and future decisions. Sundvolden Hotel, Norway.  May 19-23, 2019. [pdf]
   
-   
+* **Optimal forest management in multi-purpose forestry under changing climate.**
+  EGU. Vienna. March, 2019. [pdf] 
   
 * **Integrating hazards for forest management and planning in Norway.**
   Science afternoon. Institute of silviculture. BOKU. Vienna. January 11, 2018. [*[pdf]({{ site.url }}/assets/docs/SciAfternoon_ODY_handout.pdf)*]
   
-* **Optimal forest management in multi-purpose forestry under changing climate.**
-  EGU. Vienna. March, 2019. [pdf]
+  
 
 * **Forest stand variables affecting break and uproot of trees after the occurrence of wind and snow damage**.
    [Ecological Society of America Annual Meeting. Portland, Oregon, United States. August 6-11, 2017](http://www.esa.org/portland/)  [*[pdf]({{ site.url }}/assets/docs/ESA17_OlallaDiazYanez.pdf)*]
