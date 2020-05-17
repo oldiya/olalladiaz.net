@@ -13,8 +13,11 @@ layout: page
 
 * **Multifunctional comparison of different management strategies in boreal forests**.  Forestry: An International Journal of Forest Research . 2019| Journal-article.  DOI:  https://doi.org/10.1093/forestry/cpz053
   
+<<<<<<< HEAD
   
 
+=======
+>>>>>>> master
 * **Modelling damage occurrence by snow and wind in forest ecosystems**.  
   Ecological modelling. 2019-07 \| Journal-article.  
   DOI: [https://doi.org/10.1016/j.ecolmodel.2019.108741](<https://doi.org/10.1016/j.ecolmodel.2019.108741>)
