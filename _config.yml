@@ -20,7 +20,11 @@ resume-url: resume
 url: https://olalladiaz.net
 # your url: http://USERNAME.github.io
 
+# Outputting
 permalink: /blog/:year/:month/:day/:title/
+paginate: 20 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-112473661-1'
@@ -31,7 +35,7 @@ analytics-google: 'UA-112473661-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
+  shortname: olalladiaz-net # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
@@ -54,18 +58,13 @@ github: oldiya
 email: olalla.diaz@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    oldiya:
+        name: Olalla Díaz Yáñez
+        bio: "#DataScience #ScientificCommunication #Science #Risk
+        #ForestDynamics  #ForestManagement #ForestBiomass #ForestEcology"
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: olalla
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -112,6 +111,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
+  - jekyll-paginate
 
 jekyll-mentions:
     base_url: https://github.com
@@ -128,9 +128,9 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  # - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
+#  - assets/js/plugins
+#  - assets/js/_main.js
+#  - assets/js/vendor
   - Capfile
   - CHANGELOG
   - config
@@ -144,6 +144,7 @@ exclude:
   - Rakefile
   - README.*
   - tmp
+  - TO-DO.*
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - /resources # different files I use for the blog and the web.

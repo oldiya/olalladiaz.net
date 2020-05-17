@@ -7,7 +7,7 @@ permanlink: teaching/
 
 ## ACADEMIC SKILLS IN FOREST SCIENCES
 
-**Role:** Teacher assistant  
+**Role:** Teacher coordinator  
 **Responsibilities:** Planning, teaching, material creation and grading  
 **Teaching institution:** School of Forest Sciences, University of Eastern Finland
 
@@ -87,9 +87,9 @@ Upon a successful completion of this course, the students have obtained knowledg
 
 ------
 
-## DATA SCIENCE BASIC COURSE
+## DATA SCIENCE SEMINARS
 
-This is a collection of notes that I am developing for the data science course, it is a work in progress so you might find several errors (sorry about that) I will keep working on improving them:
+This is a collection of notes that I started developing for the data science seminar that I organised in the spring of 2018, it is a work in progress so you might find several errors (sorry about that) I will keep working on improving them:
 
 **Class Notes:**  
 **– [Notes (a work in progress)]({{site.url}}/classes/datasci-basic/book/)**  
@@ -100,7 +100,7 @@ This is a collection of notes that I am developing for the data science course, 
 
 ## INTEGRATING RISK INTO FOREST MANAGEMENT
 
-**Role:** Teacher assistant (Erasmus+ teacher exchange)  
+**Role:** Guest teacher (Erasmus+ teacher exchange)  
 **Responsibilities:** Planning, teaching, material creation.  
 **Teaching institution:** School of Forest Sciences, Vigo University   (Pontevedra, Spain)
 
@@ -108,7 +108,7 @@ This is a collection of notes that I am developing for the data science course, 
 
 ## SCIENTIFIC WRITING AND PRESENTATIONS. VIGO UNIVERSITY, PONTEVEDRA, SPAIN. DECEMBER 2017
 
-**Role:** Teacher assistant (Erasmus+ teacher exchange)  
+**Role:** Guest teacher (Erasmus+ teacher exchange)  
 **Responsibilities:** Planning, teaching, material creation.  
 **Teaching institution:** School of Forest Sciences, Vigo University   (Pontevedra, Spain)
 
