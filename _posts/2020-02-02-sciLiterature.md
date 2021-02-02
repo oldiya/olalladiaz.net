@@ -2,7 +2,7 @@
 title: "Trust your network"
 layout: post
 date: 2021-02-02 20:00
-image: /assets/images/paperless.jpg
+image: /assets/images/paperless.jpeg
 headerImage: true
 tag:
 - science
