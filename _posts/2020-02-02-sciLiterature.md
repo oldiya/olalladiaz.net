@@ -3,7 +3,7 @@ title: "Trust your network"
 layout: post
 date: 2021-02-02 20:00
 image: /assets/images/paperless.jpg
-headerImage: false
+headerImage: true
 tag:
 - science
 - literature
