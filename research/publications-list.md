@@ -19,7 +19,8 @@ layout: page
   Scientific Reports. 2020 \| Journal-article.  
   DOI: [10.1038/s41598-020-61990-4](<https://doi.org/ 10.1038/s41598-020-61990-4>)
 
-* **Multifunctional comparison of different management strategies in boreal forests**.  Forestry: An International Journal of Forest Research . 2019| Journal-article.  DOI:  [10.1093/forestry/cpz053]( https://doi.org/10.1093/forestry/cpz053)
+* **Multifunctional comparison of different management strategies in boreal forests**. Forestry: An International Journal of Forest Research . 2019 \| Journal-article.  DOI:  [10.1093/forestry/cpz053]( https://doi.org/10.1093/forestry/cpz053)
+
 * **Modelling damage occurrence by snow and wind in forest ecosystems**.  
   Ecological modelling. 2019 \| Journal-article.  
   DOI: [10.1016/j.ecolmodel.2019.108741](<https://doi.org/10.1016/j.ecolmodel.2019.108741>)
