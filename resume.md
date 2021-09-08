@@ -5,7 +5,7 @@ permanlink: resume/
 ---
 # Résumé
 
-**[LinkedIn](https://www.linkedin.com/in/olalladiaz/) \| [Download CV]({{ site.url }}/assets/docs/ODY_CV_July_2019.pdf) \| [Publications]({{site.url}}/research/publications-list/)**
+**[LinkedIn](https://www.linkedin.com/in/olalladiaz/) \| [Download CV]({{ site.url }}/assets/docs/CV_DiazYanez_Summer2021.pdf) \| [Publications]({{site.url}}/research/publications-list/)**
 {: style="text-align: center; font-size: x-large"}
 
 &nbsp;
