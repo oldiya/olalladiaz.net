@@ -5,6 +5,30 @@ permanlink: teaching/
 ---
 # Teaching
 
+
+
+## GLOBAL CHANGE BIOLOGY
+
+**Role:** Teacher coordinator  
+**Responsibilities:** Planning, teaching, material creation and grading  
+**Teaching institution:** ETH Zurich
+
+
+
+## BSc-Seminar "Wald und Landschaft"
+
+**Role:** Teacher coach  
+**Responsibilities:** teacher coach   
+**Teaching institution:** ETH Zurich
+
+
+
+## Quantitative Vegetation Dynamics 
+
+**Role:** Lab assistant   
+**Responsibilities:** Lab assistant   
+**Teaching institution:** ETH Zurich
+
 ## ACADEMIC SKILLS IN FOREST SCIENCES
 
 **Role:** Teacher coordinator  

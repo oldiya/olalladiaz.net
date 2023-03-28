@@ -5,16 +5,19 @@ permanlink: presentations/
 ---
 # Presentations
 
-* **Integrating the risk of natural disturbances
-   into forest management using NFI data in Norway**. A century of national forest inventories
-   – informing past, present and future decisions. Sundvolden Hotel, Norway.  May 19-23, 2019. [pdf]
-  
+* **Uncertainty underlying bark beetle damage formulations in models of forest landscape dynamics**. A Forest Disturbances and Ecosystem Dynamics in a Changing World.Berchtesgaden National Park, Germany.  September 19-22, 2022. 
+
+* **Assessing model of forests dynamics uncertainty**. 8º Spanish forest congress. Lleida, Spain.  July, 2022.
+
+* **GfÖ conference **. 50th Annual MeeGng of the Ecological Society
+    of Germany, Austria and Switzerland. Online.   September 30-1, 2021. 
+
 * **Optimal forest management in multi-purpose forestry under changing climate.**
   EGU. Vienna. March, 2019. [pdf] 
-  
+
 * **Integrating hazards for forest management and planning in Norway.**
   Science afternoon. Institute of silviculture. BOKU. Vienna. January 11, 2018. [*[pdf]({{ site.url }}/assets/docs/SciAfternoon_ODY_handout.pdf)*]
-  
+
   
 
 * **Forest stand variables affecting break and uproot of trees after the occurrence of wind and snow damage**.
