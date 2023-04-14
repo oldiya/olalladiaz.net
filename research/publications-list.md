@@ -14,18 +14,32 @@ layout: page
 * **Challenges for the Sustainable Management of the Boreal Forest Under Climate Change**.  
   Boreal Forests in the Face of Climate Change. 2023 \| Book-Chapter.  
   Role: Co-author |  Link: [Chapter](<https://link.springer.com/chapter/10.1007/978-3-031-15988-6_31>)
+  
+  
+  
 * **Multi-objective forestry increases the production of ecosystem services**.  
   Forestry: An International Journal of Forest Research. 2020 \| Journal-article.  
   Role: Leading-author | DOI: [10.1093/forestry/cpaa041](<https://doi.org/10.1093/forestry/cpaa041>)
+  
+  
+  
 * **The invasive forest pathogen Hymenoscyphus fraxineus boosts mortality and triggers niche replacement of European ash (*Fraxinus excelsior*).**  
   Scientific Reports. 2020 \| Journal-article.  
   Role: Leading-author | DOI: [10.1038/s41598-020-61990-4](<https://doi.org/ 10.1038/s41598-020-61990-4>)
+  
+  
+  
 * **Multifunctional comparison of different management strategies in boreal forests**  
   Forest Research . 2019 \| Journal-article.  
   Role: Leading-author | DOI:  [10.1093/forestry/cpz053](<https://doi.org/ 10.1038/s41598-020-61990-4>)
+  
+  
+  
 * **Modelling damage occurrence by snow and wind in forest ecosystems**.  
   Ecological modelling. 2019 \| Journal-article.  
   Role: Leading-author |DOI: [10.1016/j.ecolmodel.2019.108741](<https://doi.org/10.1016/j.ecolmodel.2019.108741>)
+  
+  
 
 
 * **Simulating the effects of wind and snow damage on the optimal management of Norwegian spruce forests**.  
