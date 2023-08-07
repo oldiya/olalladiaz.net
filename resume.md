@@ -12,10 +12,29 @@ permanlink: resume/
 
 &nbsp;
 
-&nbsp;
+## Education
+
+- PhD Forest Sciences, 2018
+
+  University of Eastern Finland
+
+- Master’s Degree, MSc European Forestry 2013
+
+  University of Eastern Finland
+
+- Master’s Degree, MSc Forest Management and Planning 2013
+
+  Swedish University of Agricultural Sciences
+
+- BSc Forest engineering, 2011 
+
+  Universidad Politécnica de Madrid
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
 
 ## Other fun adventures:
 
