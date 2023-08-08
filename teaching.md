@@ -5,7 +5,13 @@ permanlink: teaching/
 ---
 # Teaching
 
+## Interdisciplinary Summer School 
 
+**Role:** Teacher coordinator  
+**Responsibilities:** Planning, teaching, and material creation  
+**Teaching institution:** COST Action. European Union  
+**More information:** [In this web](https://3dforecotech.eu/activities/training-schools/interdisciplinary-summer-school-on-forest-ecosystems-technologies-biodiversity-modelling/)  
+**Teaching materials:** [Available in github](https://github.com/oldiya/summerSchoolExercise)
 
 ## GLOBAL CHANGE BIOLOGY
 
