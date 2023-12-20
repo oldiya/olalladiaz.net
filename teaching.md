@@ -8,7 +8,7 @@ permanlink: teaching/
 ## Interdisciplinary Summer School 
 
 **Role:** Teacher coordinator  
-**Responsibilities:** Planning, teaching, and material creation  
+**Responsibilities:** Planning, teaching, and material creation [1 week, July 2023]  
 **Teaching institution:** COST Action. European Union  
 **More information:** [In this web](https://3dforecotech.eu/activities/training-schools/interdisciplinary-summer-school-on-forest-ecosystems-technologies-biodiversity-modelling/)  
 **Teaching materials:** [Available in github](https://github.com/oldiya/summerSchoolExercise)
@@ -16,8 +16,8 @@ permanlink: teaching/
 ## GLOBAL CHANGE BIOLOGY
 
 **Role:** Teacher coordinator  
-**Responsibilities:** Planning, teaching, material creation and grading  
-**Teaching institution:** ETH Zurich
+**Responsibilities:** Planning, teaching, material creation, and grading  
+**Teaching institution:** ETH Zurich [Spring semester course: 2021, 2022, 2023, 2024]
 
 
 
@@ -25,7 +25,7 @@ permanlink: teaching/
 
 **Role:** Teacher coach  
 **Responsibilities:** teacher coach   
-**Teaching institution:** ETH Zurich
+**Teaching institution:** ETH Zurich [Autumn semester course: 2020, 2021, 2022]
 
 
 
@@ -33,7 +33,9 @@ permanlink: teaching/
 
 **Role:** Lab assistant   
 **Responsibilities:** Lab assistant   
-**Teaching institution:** ETH Zurich
+**Teaching institution:** ETH Zurich  [Autumn semester course: 2020]
+
+
 
 ## ACADEMIC SKILLS IN FOREST SCIENCES
 
