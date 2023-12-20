@@ -5,9 +5,17 @@ permanlink: presentations/
 ---
 # Presentations
 
+* **Tree migration in complex landscapes.** SwissForestLab Science day, Zürich ETHZ, October 2023
+
+* **Integrative approaches to capture natural disturbance impacts in models.** Session chair. European Conference of Ecological Modeling, Leipzig, September 2023.
+
+* **Tree migration in complex landscapes**. European Conference of Ecological Modeling, Leipzig, September 2023.
+
+* **Tree regeneration in models of forest dynamics: Protocol for a multi-model simulations and results from a PROCLIAS workshop.** PROCLIAS Cost Action meeting Prague 2023
+
 * **Uncertainty underlying bark beetle damage formulations in models of forest landscape dynamics**. A Forest Disturbances and Ecosystem Dynamics in a Changing World.Berchtesgaden National Park, Germany.  September 19-22, 2022. 
 
-* **Assessing model of forests dynamics uncertainty**. 8º Spanish forest congress. Lleida, Spain.  July, 2022.
+* **Assessing model of forests dynamics uncertainty**. 8º Spanish Forest Congress. Lleida, Spain.  July, 2022.
 
 * **GfÖ conference **. 50th Annual MeeGng of the Ecological Society
     of Germany, Austria and Switzerland. Online.   September 30-1, 2021. 
