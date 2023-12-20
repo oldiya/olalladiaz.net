@@ -9,7 +9,23 @@ layout: page
 |  [**ResearcherID**](http://www.researcherid.com/rid/K-5885-2016) 
 {: style="text-align: center; font-size: x-large"}
 
+* **Demonstrating the benefits of planted-forest diversity through economic risk assessment**.  
+  Unasylva. 2023 \|  Journal-article.  
+  Role: Co-author|  Link: [Unasylva](< https://doi.org/10.4060/cc8584en>)
 
+  
+
+* **Tree recruitment in Central Europe: observed and simulated data**.  
+  Research Collection ETHZ. 2023 \| Data.  
+  Role: Leading-author|  Link: [Research Collection](<https://www.research-collection.ethz.ch/handle/20.500.11850/643426>)
+
+  
+
+* **A protocol for simulating and evaluating tree regeneration using a diverse range of forest dynamic models**.  
+  Open Science Framework. 2023 \| Protocol.  
+  Role: Leading-author|  Link: [OSF](<https://doi.org/10.17605/OSF.IO/CZDXP>)
+
+  
 
 * **Challenges for the Sustainable Management of the Boreal Forest Under Climate Change**.  
   Boreal Forests in the Face of Climate Change. 2023 \| Book-Chapter.  
