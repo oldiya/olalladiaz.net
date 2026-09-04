@@ -5,6 +5,11 @@ layout:
 <html lang="en">
 <head>
 
+        <meta http-equiv="refresh" content="0; url={{ site.redirect-url }}{{ page.url }}">
+        <script>
+            window.location.replace("{{ site.redirect-url }}{{ page.url }}");
+        </script>
+
     {% if site.analytics-google %}
         {% include analytics-google.html %}
     {% endif %}
